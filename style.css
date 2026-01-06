@@ -114,14 +114,14 @@ body {
 
 /* Contact buttons spacing */
 .contact-buttons {
-    margin-top: 15px;  /* space above buttons */
+    margin-top: 20px;  /* space between numbers and buttons */
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-/* Optional: reduce button size on mobile */
+/* Make buttons smaller on mobile */
 @media (max-width: 600px) {
     .contact-buttons a.btn {
         padding: 10px 15px;
@@ -130,11 +130,13 @@ body {
 }
 
 
+
 footer {
     background: #222;
     color: white;
     text-align: center;
     padding: 15px;
 }
+
 
 
