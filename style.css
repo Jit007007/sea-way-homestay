@@ -118,3 +118,30 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+/* Logo Styling */
+.logo {
+    width: 120px;       /* Adjust size */
+    max-width: 30%;     /* Prevents oversize on mobile */
+    margin-bottom: 20px; /* Space below logo */
+}
+
+/* Keep hero content centered */
+.hero .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+/* Optional: group buttons neatly */
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
