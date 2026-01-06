@@ -119,32 +119,3 @@ footer {
     padding: 15px;
 }
 
-/* Logo Styling */
-.logo {
-    width: 120px;       /* small, fixed width */
-    max-width: 30%;     /* responsive for mobile */
-    height: auto;       /* maintain aspect ratio */
-    margin-bottom: 20px; /* spacing below logo */
-}
-
-
-/* Keep hero content centered */
-.hero .overlay {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100%;
-}
-
-/* Optional: group buttons neatly */
-.hero-buttons {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-
