@@ -121,10 +121,12 @@ footer {
 
 /* Logo Styling */
 .logo {
-    width: 120px;       /* Adjust size */
-    max-width: 30%;     /* Prevents oversize on mobile */
-    margin-bottom: 20px; /* Space below logo */
+    width: 120px;       /* small, fixed width */
+    max-width: 30%;     /* responsive for mobile */
+    height: auto;       /* maintain aspect ratio */
+    margin-bottom: 20px; /* spacing below logo */
 }
+
 
 /* Keep hero content centered */
 .hero .overlay {
@@ -144,4 +146,5 @@ footer {
     justify-content: center;
     margin-top: 10px;
 }
+
 
